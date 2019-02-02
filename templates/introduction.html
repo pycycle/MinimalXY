@@ -5,13 +5,13 @@
           {% if SOCIAL %}
           <ul class="social" style="margin: 0; margin-top: 10px; padding: 0;">
             {% for name, link in SOCIAL %}
-            <li><a class="sc-{{ name }}" href="{{ link }}" target="_blank"><i class="fa fa-{{ name }}"></i></a></li>
+            <li><a class="sc-{{ name }}" href="{{ link }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-{{ name }}"></i></a></li>
             {% endfor %}
           </ul>
           {% endif %}
         </div>
         <div style="line-height: 180px;">
-          <a href="{{ AUTHOR_WEB }}" target="_blank"><img class="avatar" alt="Avatar" src="{{ AUTHOR_AVATAR }}" onerror="this.src='theme/images/avatar.png'"></a>
+          <a href="{{ AUTHOR_WEB }}" target="_blank" rel="noopener noreferrer"><img class="avatar" alt="Avatar" src="{{ AUTHOR_AVATAR }}" onerror="this.src='theme/images/avatar.png'"></a>
         </div>
       </aside>
     </div>
