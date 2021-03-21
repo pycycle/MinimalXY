@@ -308,6 +308,50 @@ ul.social li a:hover {
   display: none;
 }
 
+.search-form {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.search-form-content {
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+.search-form-content .closebtn:hover {
+  color: #ccc;
+}
+
+.search-form-content input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: #e6e6e6;
+}
+
+.search-form-content input[type=text]:hover {
+  background: #bfbfbf;
+}
+
+.search-form-content button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background:  #8c8c8c;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form-content button:hover {
+  background: #bbb;
+}
 
 
 /* Screen > 530px */
